@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./src/pages/Home";
-import Login from "./src/pages/Login";
-import Chat from "./src/pages/Chat";
-import FindMentor from "./src/pages/FindMentor";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Chat from "./pages/Chat";
+import FindMentor from "./pages/FindMentor";
 
-import List from "./src/pages/List";
-import NewMentee from "./src/pages/NewMentee";
-import NewMentor from "./src/pages/NewMentor";
-import SingleMentor from "./src/pages/SingleMentor";
-import SingleMentee from "./src/pages/SingleMentee";
+import List from "./pages/List";
+import NewMentee from "./pages/NewMentee";
+import NewMentor from "./pages/NewMentor";
+import SingleMentor from "./pages/SingleMentor";
+import SingleMentee from "./pages/SingleMentee";
 
 function App() {
   return (

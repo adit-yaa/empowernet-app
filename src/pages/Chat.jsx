@@ -3,10 +3,10 @@ import { StreamChat } from "stream-chat";
 import { Chat, enTranslations, Streami18n } from "stream-chat-react";
 
 import "stream-chat-react/dist/css/index.css";
-import "../../App.css";
+import "../App.css";
 
 import { getRandomImage } from "../Components/assets/";
-import { useChecklist } from "../../ChecklistTasks";
+// import { useChecklist } from "../ChecklistTasks";
 import { ChannelContainer } from "../Components/components/ChannelContainer/ChannelContainer";
 import { ChannelListContainer } from "../Components/components/ChannelListContainer/ChannelListContainer";
 
